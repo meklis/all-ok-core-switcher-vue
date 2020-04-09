@@ -3,7 +3,7 @@
         <form  @submit="checkForm">
             <div id="header-block" >
                 <div class="row">
-                    <div class="col-sm-12 col-lg-8 col-xs-12 col-md-12 col-xl-8" style="padding: 5px;">
+                    <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-8 col-xl-8" style="padding: 5px;">
                         <div v-if="modulesLoadingList.length !== 0" style="text-align: left; padding: 5px;">
                             <img src="assets/cicle.svg" style="height: 24px; padding: 2px">Loading...
                             <small>
@@ -13,10 +13,10 @@
                         <h4 style="color: darkred" v-if="errMessage !== ''">{{errMessage}}</h4>
                         <span style="color: darkred" v-if="errIncorrectIp !== ''">{{errIncorrectIp}}</span>
                     </div>
-                    <div class="col-sm-6 col-lg-2 col-xs-3 col-md-6 col-xl-2">
+                    <div class="col-xs-8 col-sm-8 col-md-3 col-lg-2 col-xl-2">
                         <input v-model="devIp" id="dev-ip" class="form-control" placeholder="10.1.1.1">
                     </div>
-                    <div class="col-sm-6 col-lg-2 col-xs-3 col-md-6 col-xl-2">
+                    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2  col-xl-2">
                         <button   type="submit"  class="btn btn-block btn-primary" :disabled="modulesLoadingList.length !== 0">Get info</button>
                     </div>
                 </div>

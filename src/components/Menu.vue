@@ -15,7 +15,7 @@
                     <li class="nav-item" v-if="sysInfo !== null">
                         <router-link :to="{path: '/switcher/actions', query: {ip: sysInfo.ip}}" class="nav-link">Actions</router-link>
                     </li>
-                    <li class="ml-auto nav-item " v-if="sysInfo !== null"  >
+                    <li class="ml-auto nav-item " style="float: right" v-if="sysInfo !== null"  >
                         <a href="#" @click="reload()" class="nav-link">Reload</a>
                     </li>
                 </ul>

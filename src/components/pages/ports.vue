@@ -14,7 +14,7 @@
             </div>
             <div id="port-info-block" v-if="showBlock" >
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xl-12  d-none d-xs-none d-sm-none d-md-block  d-lg-block d-xl-block" >
+                    <div class="col-lg-12 col-md-12 col-xl-12  d-none d-xs-none d-sm-none d-md-block  d-lg-block d-xl-block  hidden-xs hidden-sm visible-lg visible-md " >
                         <div align="center" style=" padding-top: 100px;  padding-bottom: 100px; "  v-if="loadInProccess">
                             <h3>Info is loading, please wait...</h3>
                             <img src="assets/line.svg">
@@ -63,7 +63,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xs-12  col-md-12   d-xs-block d-sm-block d-md-none d-lg-none d-xl-none" >
+                    <div class="col-sm-12 col-xs-12  col-md-12 hidden-lg hidden-md  d-xs-block d-sm-block d-md-none d-lg-none d-xl-none" >
                         <InfoIsLoading v-bind:load-in-proccess="loadInProccess"></InfoIsLoading>
                         <div v-if="!loadInProccess">
                             <div class="row" v-for="(data, portNum) in ports" :key="portNum">

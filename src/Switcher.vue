@@ -1,12 +1,12 @@
 <template>
-  <div id="app" style="margin-bottom: 15px">
+  <div id="app" class="switcher-app">
     <Header v-on:set-ip="setDeviceIp($event)"  v-bind:loaded-dev-ip="deviceIp"  v-bind:err-message="errMessage" v-bind:modules-loading-list="modulesLoadingList"/>
     <DevSysBlock   v-bind:sys-info="systemInfo"/>
     <Menu v-bind:sys-info="systemInfo" />
     <router-view v-bind:sys-info="systemInfo"/>
   </div>
 </template>
-<style src="./switcher.css">
+<style src="./assets/themes/golden-net.css">
 </style>
 <script>
 import Header from './components/Header'

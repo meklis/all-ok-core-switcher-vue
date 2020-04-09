@@ -1,0 +1,201 @@
+.switcher-app {
+    margin-top: 0  !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    padding: 0px;
+}
+.action-name {
+
+
+
+    margin-top: 10px;
+    border: 1px solid  #2A3F54;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    background: #2A3F54;
+    color: white;
+    font-weight: bold;
+}
+
+.action-form {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #2A3F54;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+    border-top: 0;
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+.sys-info-block {
+    overflow: hidden; border-right: 1px solid #E6E9ED
+}
+
+.sys-block {
+    font-size: 11pt !important;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    flex-grow: 1;
+    border: 1px solid #E6E9ED;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+.sys-block-name {
+    float: left;
+    padding: 3px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #2A3F54;
+    color: white;
+}
+.sys-block-value {
+    float: left;
+    width: 100%;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: black;
+}
+#sys-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.portsTable tr:nth-child(2n+1) {
+    background-color: #eaeaea;
+    border: 1px solid #2A3F54;
+}
+.portsTable tr td {
+    padding: 3px;
+    border: 1px solid #2A3F54;
+}
+.portsTable tr th {
+    padding: 3px;
+    border: 1px solid #2A3F54;
+    color: white;
+}
+.portsTable tr:nth-child(2n) {
+    background-color: #fff;
+    border: 1px solid #2A3F54;
+}
+.portsTable  {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 11pt !important;
+    border: 1px solid black;
+}
+.portsTable th {
+    text-align: center !important;
+    padding: 3px;
+    background:  #2A3F54;
+}
+
+.port-general-info {
+
+    position: relative;
+    width: 100%;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #2A3F54;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+}
+.port-detailed-info {
+    background: #f0f0f0;
+    border: 1px solid  #2A3F54;
+    margin-top: -7px;
+    padding-top: 8px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.port-detailed-info > hr {
+    color:  #2A3F54;
+    height:1px;
+    background:  #2A3F54;
+    margin: 5px !important;
+}
+.blk-name {
+
+    background-color: #eaeaea;
+    border: 1px solid #2A3F54;
+
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: right;
+}
+.blk-value {
+    border: 1px solid #2A3F54;
+    border-collapse: collapse;
+    background: #fff;
+    padding: 5px;
+    text-align: left;
+
+}
+.sys-block {
+    font-size: 11pt !important;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    flex-grow: 1;
+    border: 1px solid black;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+#sys-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-right: 1px solid black;
+}
+
+#header-block {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+}
+.info-page-block {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease;
+}
