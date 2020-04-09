@@ -1,0 +1,209 @@
+
+.action-name {
+    margin-top: 10px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    background: #FFF2B8;
+    color: black;
+    font-weight: bold;
+}
+
+.action-form {
+    border: 1px solid black;
+    border-top: 0;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background: #fff8dc;
+    color: black;
+}
+.sys-info-block {
+    overflow: hidden; border-right: 1px solid black
+}
+
+.sys-block {
+    font-size: 11pt !important;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    flex-grow: 1;
+    border: 1px solid black;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+.sys-block-name {
+    float: left;
+    padding: 3px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #FFF2B8;
+    color: black;
+}
+.sys-block-value {
+    float: left;
+    width: 100%;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    background: #fff8dc;
+    color: black;
+}
+#sys-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.portsTable tr:nth-child(2n+1) {
+    background-color:#FFF2B8;
+    border: 1px solid black;
+}
+.portsTable tr td {
+    padding: 3px;
+    border: 1px solid black;
+}
+.portsTable tr th {
+    padding: 3px;
+    border: 1px solid black;
+}
+.portsTable tr:nth-child(2n) {
+    background: #fffFdF;
+    border: 1px solid black;
+}
+.portsTable  {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 11pt !important;
+    border: 1px solid black;
+}
+.portsTable th {
+    text-align: center !important;
+    padding: 3px;
+    background:  #FEDC85;
+}
+
+.port-general-info {
+    border: 1px solid black;
+    padding-top: 5px;
+    background:  #FFF2B8;
+    text-align: center !important;
+    font-size: 100%;
+
+}
+.port-detailed-info {
+    background: #fff8dc;
+    border: 1px solid black;
+    margin-top: -5px;
+    padding-top: 8px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.blk-name {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: #FFF2B8;
+    padding: 5px;
+    text-align: right;
+}
+.blk-value {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: #fff8dc;
+    padding: 5px;
+    text-align: left;
+
+}
+.sys-block {
+    font-size: 11pt !important;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    flex-grow: 1;
+    border: 1px solid black;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+.sys-block-name {
+    float: left;
+    padding: 3px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #FFF2B8;
+    color: black;
+}
+.sys-block-value {
+    float: left;
+    width: 100%;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    background: #fff8dc;
+    color: black;
+}
+#sys-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#header-block {
+    padding: 3px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #FFF2B8;
+    color: black;
+    border: 1px solid black;
+}
+.tab {
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0px 37px 40px -26px rgba(242,173,0,1);
+    -moz-box-shadow: 0px 37px 40px -26px rgba(242,173,0,1);
+    box-shadow: 0px 37px 40px -26px rgba(242,173,0,1);
+}
+.active {
+    background: #FEDC85 !important;
+    color: black !important;
+    border: 1px solid  black !important;
+}
+.nav-item:hover a {
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+    border-top: 1px solid black !important;
+    border-bottom: 0 !important;
+}
+.nav-link {
+    color: black !important;
+}
+.disabled {
+    color: gray !important;
+}
+.nav-item:hover .disabled  {
+    color: gray !important;
+    border-left: 1px solid gray !important;
+    border-right: 1px solid gray !important;
+    border-top: 1px solid gray !important;
+}
+
+.info-page-block {
+    width: 100%;
+    padding-top: 20px;
+    background: #FFF2B8;
+    padding-bottom:20px;
+    border: 1px solid black;
+    margin-top:-1px
+}
