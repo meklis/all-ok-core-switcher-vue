@@ -59,6 +59,6 @@ var allOkSwitcher = new Vue({
 });
 
 
-allOkSwitcher.setApiConfig("https://apiv2.golden.net.ua/v2", '8c6c07d5-1af0-4f1f-9567-1aabdf11845e');
+allOkSwitcher.setApiConfig("https://apiv2.golden.net.ua/v2", 'ab8fad89-6ffa-432c-9486-d05702dcaffe');
 allOkSwitcher.$mount('#app');
 

@@ -79,7 +79,6 @@ export default class ServerApi {
             return resp
         }).finally(() => {
             this._inProccessMethods.remove('device_info');
-
         });
 
         if(this._waitEnabled) {
@@ -105,7 +104,10 @@ export default class ServerApi {
             return resp
         }).finally(() => {
             this._inProccessMethods.remove(actionName);
-        })
+        }).catch(e => {
+            console.log("Catching error from getAction")
+            console.log(e)
+        });
         if(this._waitEnabled) {
             this._promises.push(promise);
         }

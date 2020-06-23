@@ -234,18 +234,20 @@
                 this.$Api.enableWaiting();
                 this.loadInProccess = true;
                 this.modules.forEach(module => {
-                    this.$Api.getAction(module, {}, resp => {
-                        resp.data.forEach(el => {
-                            if( this.ports[el.port] !== undefined) {
-                                this.ports[el.port][module].push(el);
-                            }
+                        this.$Api.getAction(module, {}, resp => {
+                            resp.data.forEach(el => {
+                                if (this.ports[el.port] !== undefined) {
+                                    this.ports[el.port][module].push(el);
+                                }
+                            });
                         });
-                    }).catch(e => {
-                        console.log("ERROR LOADING MODULE "+module);
-                        console.log(e);
-                    });
                 });
-                await this.$Api.waitResponses();
+                try {
+                    await this.$Api.waitResponses();
+                } catch (e) {
+                    console.log("Catching error from async waiter")
+                    console.log(e)
+                }
                 this.$Api.disableWaiting();
                 this.loadInProccess = false;
             },
